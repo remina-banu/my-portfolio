@@ -553,24 +553,31 @@ JavaScript and React.js.
 
 <!-- CONTACT -->
 
-<section id="contact" class="bg-light" data-aos="zoom-in">
-
-<div class="container text-center">
-
-<h2 class="section-title">Contact Me</h2>
-
-<p>Email: remina366@gmail.com</p>
-
-<p>Phone: +91 8428782247</p>
-
-<p>
-<a href="https://github.com/remina-banu" target="_blank" class="btn btn-dark">GitHub</a>
-<a href="https://www.linkedin.com/in/Remina-Banu-S" target="_blank" class="btn btn-primary">LinkedIn</a>
-</p>
-
-</div>
-
-</section>
+<section id="contact" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form action="https://formspree.io/f/mrbarjal" method="post"> 
+            <!-- Hidden field to set subject -->
+            <input type="hidden" name="_subject" value="New Portfolio Message">
+            <div class="mb-3">
+              <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control"  name="_replyto" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <!-- Redirect after submit -->
+            <input type="hidden" name="_next" value="https://your-site.netlify.app/thankyou.html" target="_blank">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <footer>
 
